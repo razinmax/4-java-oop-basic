@@ -24,7 +24,6 @@ public class Point {
         return Math.sqrt(deltaX * deltaX + deltaY * deltaY);
     }
 
-    @Override
     public String toString() {
         return String.format("(%d, %d)", x, y);
     }
